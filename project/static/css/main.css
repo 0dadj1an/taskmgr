@@ -134,3 +134,13 @@ body {
     text-decoration:none;
     position:relative;
   }
+
+  .inline-form .input-group{
+    display: inline-block;
+    margin: 10px 5px;
+    }
+
+    .input-group input {
+    width: 100%;
+    }
+  
