@@ -158,8 +158,7 @@ def register():
             except IntegrityError:
                 error = 'That username and/or email already exist.'
                 return render_template('register.html', form=form, error=error)
-        else:
-            return render_template('tasks.html', form=form, error=flash_errors(form))
+                
     return render_template('register.html', form=form, error=error)
 
 
