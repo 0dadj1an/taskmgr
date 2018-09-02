@@ -12,7 +12,6 @@ class AddTaskForm(Form):
     priority = SelectField('Priority', validators=[DataRequired()], choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'),('6', '6'), ('7', '7'), ('8', '8'), ('9', '9'), ('10', '10')])
     status = IntegerField('Status')
 
-
 class RegisterForm(Form):
 
     name = StringField('Username',validators=[DataRequired(), Length(min=6, max=25)])
@@ -24,3 +23,5 @@ class LoginForm(Form):
 
     name = StringField('Username',validators=[DataRequired()])
     password = PasswordField('Password',validators=[DataRequired()])
+
+    
