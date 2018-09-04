@@ -108,9 +108,4 @@ venv
 *.pyc
 __pycache__
 *.DS_Store
-<<<<<<< HEAD
-#project/_config.py
-=======
-project/_config.py
 .db
->>>>>>> ba501f2e693aca8f784a459d7df7214fb90e3e95
