@@ -2,7 +2,7 @@ asn1crypto==0.24.0
 cffi==1.11.5
 click==6.7
 cryptography==2.3
-Flask~>0.12.3
+Flask==0.12.3
 Flask-SQLAlchemy==2.1
 Flask-WTF==0.12
 idna==2.7
